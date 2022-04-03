@@ -14,4 +14,8 @@ public class Book {
 
     @Column(name = "paginas")
     private int paginas;
+
+    @Column(name = "price")
+    private float price;
+
 }
