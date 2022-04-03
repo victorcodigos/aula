@@ -11,4 +11,7 @@ public class Book {
 
     @Column(name = "name")
     private String name;
+
+    @Column(name = "paginas")
+    private int paginas;
 }
